@@ -1,0 +1,33 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'SecondTest' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for SecondTest
+  pod 'MobileCenter/Crashes', '~> 0.14.1'
+  pod 'RNMobileCenterShared', '~> 0.11.2'
+  pod 'MobileCenter/Analytics', '~> 0.14.1'
+
+  
+
+  target 'SecondTestTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'SecondTest-tvOS' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for SecondTest-tvOS
+
+  target 'SecondTest-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
